@@ -45,12 +45,12 @@ class Sidebar extends Component {
           </li>
           <li className='sidebar-nav-items'>
             <Link smooth to='/#interest' className='links'>
-              Interest
+            Professionl Experience
             </Link>
           </li>
           <li className='sidebar-nav-items'>
             <Link smooth to='/#education' className='links'>
-              Education
+              Training
             </Link>
           </li>  </ul>
 

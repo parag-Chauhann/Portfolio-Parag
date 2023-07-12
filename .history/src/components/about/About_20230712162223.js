@@ -7,7 +7,7 @@ class About extends Component {
   render() {
     return (
       <div className={classes.box} id='about'>
-        <div
+        <ScrollAnimation
           offset={0}
           animateIn='fadeInLeft'
           duration={2.4}
@@ -30,7 +30,7 @@ class About extends Component {
               and modular.
             </p>
           </div>
-        </div>
+        </ScrollAnimation>
       </div>
     );
   }

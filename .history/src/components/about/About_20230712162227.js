@@ -30,7 +30,7 @@ class About extends Component {
               and modular.
             </p>
           </div>
-        </div>
+        </d>
       </div>
     );
   }

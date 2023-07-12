@@ -10,7 +10,7 @@ class Education extends Component {
   render() {
     return (
       <div className={classes.box} id='education'>
-        <div
+        <ScrollAnimation
           offset={0}
           animateIn='fadeInLeft'
           duration={2}
@@ -23,7 +23,7 @@ class Education extends Component {
               <div className={classes.row}>
                 <div className={classes.row_md_12}>
                   <div className={classes.timeline_centered}>
-                    <div
+                    <ScrollAnimation
                       offset={0}
                       animateIn='fadeInLeft'
                       duration={2.4}
@@ -49,7 +49,7 @@ class Education extends Component {
                           </p>
                         </div>
                       </article>
-                    </div>
+                    </ScrollAnimation>
                     
                     
 
@@ -59,7 +59,7 @@ class Education extends Component {
               </div>
             </div>
           </section>
-        </div>
+        </ScrollAnimation>
       </div>
     );
   }

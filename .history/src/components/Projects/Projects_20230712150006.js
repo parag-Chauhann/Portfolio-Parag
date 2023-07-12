@@ -7,7 +7,7 @@ import Blog from '../images/Blog.png';
 import ToDoList from '../images/ToDoList.png';
 import Click from '../images/Click.png';
 import Stopwatch from '../images/Stopwatch.png';
-// import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
 // Web projects
@@ -82,7 +82,7 @@ export default function Projects() {
 
   return (
     <div className={classes.box} id='projects'>
-      <div
+      <ScrollAnimation
         offset={0}
         animateIn='fadeInLeft'
         duration={2.4}
@@ -102,7 +102,7 @@ export default function Projects() {
             return getProjectCard(item);
           })}
         </ul> */}
-      </div>
+      </ScrollAnimation>
     </div>
   );
 }

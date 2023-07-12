@@ -82,7 +82,7 @@ export default function Projects() {
 
   return (
     <div className={classes.box} id='projects'>
-      <div
+      <ScrollAnimation
         offset={0}
         animateIn='fadeInLeft'
         duration={2.4}
@@ -102,7 +102,7 @@ export default function Projects() {
             return getProjectCard(item);
           })}
         </ul> */}
-      </div>
+      </ScrollAnimation>
     </div>
   );
 }

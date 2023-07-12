@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import classes from './Interest.module.css';
-// import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
 class Interest extends Component {
   render() {
     return (
       <div className={classes.box} id='interest'>
-        <div
+        <ScrollAnimation
           offset={0}
           animateIn='fadeInLeft'
           duration={2.4}
@@ -16,7 +16,7 @@ class Interest extends Component {
         >
           <h2 className={classes.heading}>Professional Experience</h2>
           <div className={classes.Interest}>
-            <div
+            <ScrollAnimation
               offset={0}
               animateIn='fadeInLeft'
               duration={2.4}
@@ -32,10 +32,10 @@ class Interest extends Component {
 providing comprehensive training andconducting studies to promote safety in various domains. Specialized inareas such as fire safety, human safety, behavior-based safety (BBS), andconducting hazard identification studies, including HAZOP (Hazard andOperability) studies. Proficient in implementing safety measures incompliance with relevant standards, including IS (Indian Standards).
                 </p>
               </div>
-            </div>
+            </ScrollAnimation>
 
           </div>
-        </div>
+        </ScrollAnimation>
       </div>
     );
   }

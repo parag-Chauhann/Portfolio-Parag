@@ -10,7 +10,7 @@ class Education extends Component {
   render() {
     return (
       <div className={classes.box} id='education'>
-        <div
+        <ScrollAnimation
           offset={0}
           animateIn='fadeInLeft'
           duration={2}
@@ -59,7 +59,7 @@ class Education extends Component {
               </div>
             </div>
           </section>
-        </div>
+        </ScrollAnimation>
       </div>
     );
   }
