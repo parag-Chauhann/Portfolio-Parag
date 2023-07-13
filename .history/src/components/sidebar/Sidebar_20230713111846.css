@@ -55,8 +55,7 @@
 
 .flip-card-back {
   margin-top: 50px;
-  display: flex;
-  justify-content: space-evenly;
+  border: 2px solid red;
 
 }
 

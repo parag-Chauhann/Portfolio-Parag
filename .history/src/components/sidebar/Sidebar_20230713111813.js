@@ -56,6 +56,8 @@ class Sidebar extends Component {
           </ul>
 
         <div className='flip-card-back'>
+          <ul className='sidebar-nav'>
+            <li className='sidebar-nav-icons'>
               <a
                 href='https://github.com/parag-Chauhann'
                 rel='opener noreferrer'
@@ -76,6 +78,7 @@ class Sidebar extends Component {
                 target='_blank'
                 className='fa fas fa-envelope fa-lg'
               ><img className='social-icon' alt="linkedinhub" src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/48/google-gmail-512.png"/></a>
+          </ul>
         </div>
       </div>
     );
