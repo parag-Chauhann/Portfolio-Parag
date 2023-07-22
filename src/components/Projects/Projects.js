@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Projects.module.css';
 import bookheap from '../images/shopping-cart-app.png';
 import Movie from '../images/Movie-app.png';
+import clone from '../images/clone.png';
 import Dashboard from '../images/Dashboard.png';
 import Blog from '../images/Blog.png';
 import ToDoList from '../images/ToDoList.png';
@@ -12,6 +13,12 @@ import 'animate.css/animate.min.css';
 
 // Web projects
 const cardItem = [
+  {
+    link: 'https://amazon-clone-jade-seven.vercel.app/login',
+    title: 'Amazon Clone',
+    desc: 'Developed Amazon Clone using React.js, dynamic routing. Designed intuitive UI , Integrated Firebase Authentication forsecure sign-up and log-in.',
+    image: clone,
+  },
   {
     link: 'https://movie-app-parag.vercel.app/',
     title: 'Movie-app',
